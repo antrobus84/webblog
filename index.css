@@ -1,0 +1,16 @@
+body{
+    background: url(thumb-1920-923283.png);
+} 
+.container{
+    position: relative;
+}
+.text-block {
+    position: static;
+    bottom: 20px;
+    right: 20px;
+    background-color:rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 48vw;
+  }

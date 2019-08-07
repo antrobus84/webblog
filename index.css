@@ -1,10 +1,10 @@
 body{
     background: url("original.gif")no-repeat, url("giphy.gif")center no-repeat, url("PffZV18.gif") bottom no-repeat;
-    background-size: 114%;
+    background-size: 116%;
     position: relative;
 }
 .container{
-    position: relative;
+  position: relative;
 }
 .text-block {
     position: static;

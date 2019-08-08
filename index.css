@@ -1,6 +1,6 @@
 body{
-    background: url("original.gif")no-repeat, url("giphy.gif")center no-repeat, url("PffZV18.gif") bottom no-repeat;
-    background-size: 116%;
+    background: url("giphy.gif") repeat;
+    background-size: 100%;
     position: relative;
 }
 .container{

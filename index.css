@@ -7,6 +7,7 @@ body{
   position: relative;
 }
 .text-block {
+    word-wrap: break-word;
     position: static;
     bottom: 20px;
     right: 20px;
@@ -54,10 +55,12 @@ head{
     background-color: #555; 
   }
   .topnav {
+    flex-direction: row;
     background-color:rgb(3, 3, 3);
     overflow: hidden;
   }
   .topnav a {
+    flex-direction: row;
     display:inline-block;
     text-align: center;
     padding: 14px 16px;
@@ -69,8 +72,13 @@ head{
     color: black;
   }
   .topnav a.active {
+    flex-direction: row;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+  }
+  .topnav .icon {
+    display: none;
+    color: white
   }
   
   .sidenav {
@@ -103,9 +111,4 @@ head{
   .main {
     margin-left: 160px; 
     padding: 0px 10px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
   }
